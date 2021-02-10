@@ -1,9 +1,7 @@
 * {
   margin: 0 auto;
 }
-body {
-  width: 100%;
-}
+
 .header {
   background-color: #3030C1;
   padding-top: 60px;
@@ -20,7 +18,7 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 733px;
+  height: 81vh;
   background-color: #3030C1;
 }
 
@@ -82,8 +80,11 @@ body {
 
 @media screen and (max-width: 630px) and
 				 (orientation: portrait) {
-  
+          .main__header {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            height: 81vh;
+            background-color: #3030C1;
+          }
     }
-
-
-         }
