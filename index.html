@@ -24,20 +24,22 @@
       </div>
       <div class="plans">
         <h1 class="plans__title">Вот что я планирую</h1>
-        <div class="plans__item">
-          <img src="./img/medal.svg" alt="">
-          <h1>Окончить курсы в WebHeroSchool</h1>
-          <p>Стать профессионалом своего дела</p>
-        </div>
-        <div class="plans__item">
-          <img src="./img/case.svg" alt="">
-          <h1>Устроиться на работу мечты</h1>
-          <p>Приходить на любимую работу с большой радостью</p>
-        </div>
-        <div class="plans__item">
-          <img src="./img/money.svg" alt="">
-          <h1>Заработать свои первые деньги</h1>
-          <p>Зарабатывать от 120 000 рублей в месяц</p>
+        <div class="plans__container">
+          <div class="plans__item">
+            <img class="plans__item_pic" src="./img/medal.svg" alt="">
+            <h1 class="plans__item_title">Окончить курсы<br> в WebHeroSchool</h1>
+            <p class="plans__item_text">Стать профессионалом<br> своего дела</p>
+          </div>
+          <div class="plans__item">
+            <img class="plans__item_pic pic2" src="./img/case.svg" alt="">
+            <h1 class="plans__item_title">Устроиться на работу<br> своей мечты</h1>
+            <p class="plans__item_text txt2">Приходить на любимую<br> работу с большой<br> радостью</p>
+          </div>
+          <div class="plans__item">
+            <img class="plans__item_pic" src="./img/money.svg" alt="">
+            <h1 class="plans__item_title">Заработать свои<br> первые деньги</h1>
+            <p class="plans__item_text">Зарабатывать от 120 000<br> рублей в месяц</p>
+          </div>
         </div>
       </div>
       <div class="beginning">
@@ -49,11 +51,11 @@
       </div>
       <div class="changes">
         <h1 class="changes__title">Ты тоже можешь изменить свою профессию</h1>
-        <form>
+        <form class="changes__form">
           <label for="name"></label>
-          <input type="text" placeholder="Введи своё имя" id="name">
+          <input class="form__item" type="text" placeholder="Введи своё имя" id="name">
           <label for="email"></label>
-          <input type="email" placeholder="Введи свою электронную почту" id="email">
+          <input class="form__item" type="email" placeholder="Введи свою электронную почту" id="email">
         </form>
         <button class="form__btn">Оставить заявку</button>
       </div>
