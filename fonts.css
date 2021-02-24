@@ -10,3 +10,12 @@
   font-family: 'Montserrat-Black';
   src: url('./fonts/Montserrat-Black.ttf');
 }
+
+@font-face {
+  font-family: 'Gilroy-Light';
+  src: url('./fonts/Gilroy-Light.ttf');
+}
+@font-face {
+  font-family: 'Gilroy-ExtraBold';
+  src: url('./fonts/Gilroy-ExtraBold.ttf');
+}
